@@ -1,0 +1,66 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="aminfo.me" resolutions="1x" timestamp="1516097712389">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="4065280840" ref="index"/>
+    <file name="nomq_index.css" crc="419070635" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3803043152" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4153641093" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index"/>
+    <file name="require.js" crc="4157109226" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="0dc4a43741a33a5d4ac2311024fe1d2c.gif" crc="4070258098" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="simple_steam_icon_by_damoxy-daiel1a-btnnormal.png" crc="38746139" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="simple_steam_icon_by_damoxy-daiel1a-btnover.png" crc="3918272200" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="simple_steam_icon_by_damoxy-daiel1a-btnclick.png" crc="185371314" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="simple_steam_icon_by_damoxy-daiel1a-btnactive.png" crc="3918272200" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u188-4.png" crc="4175461152" ref="index"/>
+    <file name="twitter-btnnormal.png" crc="4195278949" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="twitter-btnover.png" crc="205519971" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="twitter-btnclick.png" crc="528304953" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="twitter-btnactive.png" crc="205519971" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="soundcloud-btnnormal.png" crc="23392002" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="soundcloud-btnover.png" crc="314924095" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="soundcloud-btnclick.png" crc="56904086" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="soundcloud-btnactive.png" crc="314924095" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="f2qzbnf.gif" crc="4106503588" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u188-42.png" crc="4175461152" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3970015283" seo="true" mt="1516097620053" redirect="true"/>
+</manifest>
