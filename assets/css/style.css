@@ -45,7 +45,7 @@ a:hover {
 	border-color: transparent;
 }
 
-header, nav, footer, {
+header, nav, footer {
 	display: block;
 }
 
