@@ -123,6 +123,35 @@ ul {
 	list-style: none;
 }
 
+.tooltip {
+	visibility: hidden;
+	color: #f5f5f5;
+	font-family: Questrial, sans-serif;
+	font-size: 14px;
+	bottom: -30px;
+	background-color: black;
+	width: 120px;
+	padding: 5px 0;
+	border-radius: 6px;
+	position: absolute;
+	margin-left: -60px;
+}
+
+.tooltip:after {
+	content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent black transparent;
+}
+
+header nav a:hover .tooltip {
+	visibility: visible;
+}
+
 footer {
 	color: #a5a5a5;
 	bottom: 0;
