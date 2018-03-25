@@ -45,11 +45,11 @@ a:hover {
 	border-color: transparent;
 }
 
-header, nav, footer {
+.portfolioHeader, nav, footer, {
 	display: block;
 }
 
-header {
+.portfolioHeader {
 	opacity: 0;
 	display: inline-block;
 	width: 90%;
@@ -58,7 +58,7 @@ header {
 	animation: fade-in 1s 2.25s forwards;
 }
 
-header h1 {
+.portfolioHeader h1 {
 	font-size: 4.35em;
 	font-weight: 100;
 	letter-spacing: -.035em;
@@ -66,17 +66,17 @@ header h1 {
 	text-transform: uppercase;
 }
 
-header p {
+.portfolioHeader p {
 	font-size: 1.25em;
 	margin: .75em 0 .25em;
 	opacity: 0.75;
 }
 
-header nav {
+.portfolioHeader nav {
 	margin: 1.5em 0 0;
 }
 
-header nav li {
+.portfolioHeader nav li {
 	top: 0;
 	opacity: 0;
 	display: inline-block;
@@ -87,7 +87,7 @@ header nav li {
 	animation: fade-in .5s ease-in-out forwards;
 }
 
-header nav a:before {
+.portfolioHeader nav a:before {
 	top: 0;
 	display: block;
 	width: 2.5em;
@@ -101,20 +101,20 @@ header nav a:before {
 	transition: all .2s ease-in-out;
 }
 
-header nav a:hover {
+.portfolioHeader nav a:hover {
 	font-size: 1.1em;
 }
 
-header nav a:hover:before {
+.portfolioHeader nav a:hover:before {
 	background-color: rgba( 255, 255, 255, 0.175 );
 	color: #fff;
 }
 
-header nav a:active {
+.portfolioHeader nav a:active {
 	font-size: .95em;
 }
 
-header nav a:active:before {
+.portfolioHeader nav a:active:before {
 	background-color: rgba( 255, 255, 255, 0.35 );
 	color: #fff;
 }
@@ -139,10 +139,10 @@ ul {
 
 .tooltip:after {
 	content: " ";
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -5px;
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -5px;
 	border-width: 5px;
 	border-style: solid;
 	border-color: transparent transparent black transparent;
