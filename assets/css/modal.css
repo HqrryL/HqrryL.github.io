@@ -1,30 +1,30 @@
 @font-face {
 	font-family: Whitney;
 	font-weight: 400;
-	src: url( ../fonts/Whitney_Light.woff ) format( "woff" )
+	src: url(../fonts/Whitney_Light.woff) format("woff")
 }
 
 @font-face {
 	font-family: Whitney;
 	font-weight: 500;
-	src: url( ../fonts/Whitney_Semibold.woff ) format( "woff" )
+	src: url( ../fonts/Whitney_Semibold.woff ) format("woff")
 }
 
 @font-face {
 	font-family: Whitney;
 	font-weight: 600;
-	src: url( ../fonts/Whitney_Semibold.woff ) format( "woff" )
+	src: url(../fonts/Whitney_Semibold.woff) format("woff")
 }
 
 @font-face {
 	font-family: Whitney;
 	font-weight: 700;
-	src: url( ../fonts/Whitney_Bold.woff ) format( "woff" )
+	src: url(../fonts/Whitney_Bold.woff) format("woff")
 }
 
-a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+.modalBody, a, abbr, acronym, address, applet, big, blockquote, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
 	border: 0;
-	font-family: inherit;
+	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
@@ -34,7 +34,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 	vertical-align: baseline;
 }
 
-body {
+.modalBody {
 	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 	line-height: 1;
 	margin: 0;
@@ -130,14 +130,14 @@ body {
 }
 
 .mask {
-	-webkit-mask: url( ../images/profile_mask.svg );
-	mask: url( ../images/profile_mask.svg );
+	-webkit-mask: url(../images/profile_mask.svg);
+	mask: url(../images/profile_mask.svg);
 	mask-type: luminance;
 }
 
 .maskProfile {
-	-webkit-mask: url( ../images/profile_mask.svg );
-	mask: url( ../images/profile_mask.svg );
+	-webkit-mask: url(../images/profile_mask.svg);
+	mask: url(../images/profile_mask.svg);
 }
 
 .image {
@@ -174,7 +174,7 @@ body {
 }
 
 .statusOnlineProfile {
-	box-shadow: inset 0 0 0 2px rgba( 180, 225, 205, .6 );
+	box-shadow: inset 0 0 0 2px rgba(180, 225, 205, .6);
 }
 
 .headerInfo {
@@ -200,7 +200,7 @@ body {
 }
 
 .discriminator {
-	color: hsla( 0, 0%, 100%, .6 );
+	color: hsla(0, 0%, 100%, .6);
 	font-size: 14px;
 }
 
@@ -226,7 +226,7 @@ body {
 }
 
 .topSectionNormal .profileBadgeHypesquad {
-	background-image: url( ../images/badges/hypesquad.svg );
+	background-image: url(../images/badges/hypesquad.svg);
 }
 
 .profileBadgePremium {
@@ -234,7 +234,7 @@ body {
 }
 
 .topSectionNormal .profileBadgePremium {
-	background-image: url( ../images/badges/premium.svg );
+	background-image: url(../images/badges/premium.svg);
 }
 
 .actionButton {
@@ -299,7 +299,7 @@ button a {
 }
 
 .additionalActionsIcon {
-	background: url( ../images/icons/additional.svg ) no-repeat 50%;
+	background: url(../images/icons/additional.svg) no-repeat 50%;
 	width: 24px;
 	height: 24px;
 	margin-left: 8px;
@@ -435,12 +435,28 @@ button a {
 }
 
 .connectedAccountVerifiedIcon {
+	background: url(../images/icons/verified.svg) no-repeat 50%;
 	margin: 0 5px;
+	width: 24px;
+	height: 20px;
 }
 
 .connectedAccountOpenIcon {
-	background: url( ../images/icons/open.svg ) no-repeat 50%;
+	background: url(../images/icons/open.svg) no-repeat 50%;
 	flex-shrink: 0;
 	width: 18px;
 	height: 18px;
+}
+
+@media (max-width: 767px) {
+	.root {
+		border-radius: 8px;
+		overflow: hidden;
+		position: relative;
+		width: unset;
+	}
+
+	.button {
+		display: none;
+	}
 }
