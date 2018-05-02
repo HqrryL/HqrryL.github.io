@@ -64,6 +64,9 @@ a:hover {
 	letter-spacing: -.035em;
 	line-height: 1em;
 	text-transform: uppercase;
+	user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
 }
 
 .portfolioHeader p {
@@ -71,6 +74,9 @@ a:hover {
 	margin: .75em 0 .25em;
 	opacity: 0.75;
 	user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
 }
 
 .portfolioHeader nav {
