@@ -2,6 +2,7 @@
 .portfolioBody, html, div, span, h1, p, a, ul, li, footer, header, nav {
 	margin: 0;
 	padding: 0;
+	-webkit-text-size-adjust: 100%;
 }
 
 .portfolioBody {
