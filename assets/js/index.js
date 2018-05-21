@@ -18,8 +18,6 @@ function randomWrapper() {
 		'https://78.media.tumblr.com/dba8930c075bf505728df757c37b4216/tumblr_oh8awjk7lA1qze3hdo1_r1_500.gif',
 		'https://78.media.tumblr.com/4c1313fb62311980f738c18fe9d27dac/tumblr_noa6mdd3yb1qze3hdo1_r2_500.gif',
 		'https://78.media.tumblr.com/734ba6db5941cd39f175f61ccf33b980/tumblr_nmvrs6ubl71qze3hdo1_r1_500.gif',
-		'https://78.media.tumblr.com/69c61da364abe9b4ac75f91179bf119f/tumblr_njlqclFisw1qze3hdo1_r2_500.gif',
-		'https://78.media.tumblr.com/197d88298e555b162eb38b9e2215db9c/tumblr_ni9qrsClUg1qze3hdo1_r2_500.gif',
 		'https://78.media.tumblr.com/e85d3e398ccf035c0d5dd74a34d57eb9/tumblr_ngbasnF0bG1qze3hdo1_r3_500.gif',
 		'https://78.media.tumblr.com/f7cd096f108d83c988169096361972fc/tumblr_otjfqziQrH1qze3hdo1_500.gif'
 	];
