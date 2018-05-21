@@ -1,4 +1,4 @@
-$(".wrapper").on("click", function () {
+$(".backdrop").on("click", function () {
 	$("#toggled-modal").animate({ opacity: 0 }, {
 		step: function (now, fx) {
 			$(this).css("transform", "scale("+now+") translateZ(0px)");

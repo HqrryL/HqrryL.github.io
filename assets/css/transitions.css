@@ -1,10 +1,16 @@
 @keyframes fade {
 	0% {
 		opacity: 0;
+		-ms-filter: blur(0px);
+		-moz-filter: blur(0px);
+		-webkit-filter: blur(0px);
 	}
 
 	100% {
 		opacity: 100;
+		-ms-filter: blur(8px);
+		-moz-filter: blur(8px);
+		-webkit-filter: blur(8px);
 	}
 }
 
