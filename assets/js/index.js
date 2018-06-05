@@ -11,7 +11,7 @@ $("body").ready(function () {
 function randomWrapper() {
 	var wrappers = [
 		'https://thumbs.gfycat.com/UnhappyScalyBass-size_restricted.gif',
-		'https://thumbs.gfycat.com/SlipperyShamelessHamadryas-max-1mb.gif'
+		'https://68.media.tumblr.com/4719fff8e45bc1d6efbc6247404660c9/tumblr_or579kL3iC1ur4m9eo1_1280.gif'
 	];
 
 	var randomNum = Math.floor(Math.random() * wrappers.length);
