@@ -10,8 +10,7 @@ $("body").ready(function () {
 
 function randomWrapper() {
 	var wrappers = [
-		'https://thumbs.gfycat.com/UnhappyScalyBass-size_restricted.gif',
-		'https://media.giphy.com/media/3ua6tgKzYUnza/giphy.gif'
+		'https://i.imgur.com/9WwzUeK.gif'
 	];
 
 	var randomNum = Math.floor(Math.random() * wrappers.length);
